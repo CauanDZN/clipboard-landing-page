@@ -1,4 +1,3 @@
-import './showcase'
 export function Showcase() {
   return (
     <section class="showcase">
