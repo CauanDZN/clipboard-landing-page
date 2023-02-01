@@ -1,3 +1,5 @@
+import './keep-track.css'
+
 export function KeepTrack() {
   return (
     <section class="keep-track">

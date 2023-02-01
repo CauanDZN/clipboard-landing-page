@@ -1,3 +1,5 @@
+import './showcase.css'
+
 export function Showcase() {
   return (
     <section class="showcase">
@@ -8,7 +10,7 @@ export function Showcase() {
                 copy. Instantly access your clipboard on all your devices.</p>
                 <div class="download">
                   <a href="" class="download_btn one">Download for iOS</a>
-                  <a href="" class="download_btn two">Download for Maac</a>
+                  <a href="" class="download_btn two">Download for Mac</a>
                 </div>
             </div>
           </div>
