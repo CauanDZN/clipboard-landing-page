@@ -1,0 +1,38 @@
+.download {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.download .download_btn {
+  color: white;
+  font-size: 1.12rem;
+  padding: 10px 15px;
+  border-radius: 40px;
+  width: 200px;
+  text-align: center;
+  transition: filter .3s;
+}
+
+.download .one {
+  background-color: var(--Strong-Cyan);
+  box-shadow: 0px 2px 0px  hsl(171, 68%, 34%), 0px 4px 15px  hsl(171, 55%, 68%);
+}
+
+.download .two {
+  background-color: var(--Light-Blue);
+  box-shadow: 0px 2px 0px  hsl(233, 45%, 50%),0px 4px 15px  hsl(233, 96%, 79%) ;
+}
+
+.download .download_btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
+.download .download_btn:hover {
+  filter: brightness(1.1);
+}

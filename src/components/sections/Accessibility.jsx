@@ -9,7 +9,7 @@ export function Accessibility() {
           Clipboard snippets in a few simple clicks.
         </p>
       </div>
-      <img src="image-devices.png" alt="images of different deviecs" />
+      {/* <img src="image-devices.png" alt="images of different deviecs" /> */}
     </section>
   )
 }

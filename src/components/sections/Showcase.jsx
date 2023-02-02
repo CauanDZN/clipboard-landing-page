@@ -1,4 +1,5 @@
 import './showcase.css'
+import { BtnsDownload } from "../btns/BtnsDownload";
 export function Showcase() {
   return (
     <section class="showcase">
@@ -7,10 +8,7 @@ export function Showcase() {
               <h2>A history of everything you copy</h2>
               <p>Clipboard allows you to track and organize everything you 
                 copy. Instantly access your clipboard on all your devices.</p>
-                <div class="download">
-                  <a href="" class="download_btn one">Download for iOS</a>
-                  <a href="" class="download_btn two">Download for Mac</a>
-                </div>
+              <BtnsDownload/>
             </div>
           </div>
         </section>

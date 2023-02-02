@@ -6,6 +6,7 @@ import { Install } from './components/sections/Install'
 import { KeepTrack } from './components/sections/Keep-track'
 import { Showcase } from './components/sections/Showcase'
 import { Tools } from './components/sections/Tools'
+import './styles/main.css'
 
 function App() {
   return (
@@ -18,7 +19,6 @@ function App() {
         <Accessibility />
         <Tools />
         <Brands />
-
         <Install />
       </main>
 

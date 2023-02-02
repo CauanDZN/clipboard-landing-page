@@ -9,7 +9,6 @@
 }
 
 
-
 :root {
   /* COLORS */
 
@@ -22,6 +21,14 @@
   --Dark-Grayish-Blue: hsl(210, 10%, 33%);
   --Grayish-Blue: hsl(201, 11%, 66%);
 }
-/* img {
-  display: none;
-} */
+
+body {
+  overflow-x: hidden;
+}
+
+main, header,footer {
+  padding-inline: .9rem;
+}
+
+
+
