@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-.keep-track h3 {
+.keep-track h3.small-container {
   color: var(--Dark-Grayish-Blue);
   font-size: 2rem;
   margin-bottom: 20px;

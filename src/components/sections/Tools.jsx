@@ -1,3 +1,5 @@
+import './tools.css'
+
 export function Tools() {
   return (
     <section class="tools">
