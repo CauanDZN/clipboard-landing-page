@@ -1,3 +1,5 @@
+import './brands.css'
+
 export function Brands() {
   return (
     <div class="brands">

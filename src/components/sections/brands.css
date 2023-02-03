@@ -1,0 +1,12 @@
+.brands{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 0;
+}
+.brands .brand img{
+    width: 90%;
+    margin: auto;
+}

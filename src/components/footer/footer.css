@@ -1,0 +1,50 @@
+footer{
+    background-color: #F5F6F8;
+    padding: 2.7em 0;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+}
+.footer-logo{
+    flex: 0 0 18%;
+}
+.social-icons{
+    flex : 0 0 14%;
+}
+.footer-logo img{
+    width: 60px;
+}
+.footer-menu{
+    flex:1;
+    display: flex;
+}
+.f-menu{
+    width: 25%;
+}
+.f-menu a{
+    display: block;
+    line-height: 2em;
+    text-decoration: none;
+    color: #000;
+}
+
+.social-icons a{
+    display: block;
+    float: right;
+    width:33.33%;
+    text-align: right;
+}
+.social-icons i:hover{
+    color: hsl(171, 66%, 44%);
+}
+.f-menu a:hover{
+    color:hsl(171, 66%, 44%);
+}
+.attribution{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 12px;
+}
