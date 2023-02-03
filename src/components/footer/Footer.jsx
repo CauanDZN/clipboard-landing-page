@@ -21,14 +21,14 @@ export function Footer() {
           </div>
         </div>
         <div class="social-icons">
-          <a href="https://twitter.com/rai_jenis">
-            <img src="icon-twitter.svg" alt="" />
-          </a>
-          <a href="https://twitter.com/rai_jenis">
-            <img src="icon-twitter.svg" alt="" />
-          </a>
           <a href="#">
             <img src="icon-facebook.svg" alt="https://twitter.com/rai_jenis" />
+          </a>
+          <a href="https://twitter.com/rai_jenis">
+            <img src="icon-twitter.svg" alt="" />
+          </a>
+          <a href="https://instagram.com/rai_jenis">
+            <img src="icon-instagram.svg" alt="" />
           </a>
         </div>
       </div>

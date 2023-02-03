@@ -1,50 +1,115 @@
-footer{
-    background-color: #F5F6F8;
-    padding: 2.7em 0;
-}
-footer .container{
-    display: flex;
-    align-items: center;
-}
-.footer-logo{
-    flex: 0 0 18%;
-}
-.social-icons{
-    flex : 0 0 14%;
-}
-.footer-logo img{
-    width: 60px;
-}
-.footer-menu{
-    flex:1;
-    display: flex;
-}
-.f-menu{
-    width: 25%;
-}
-.f-menu a{
-    display: block;
-    line-height: 2em;
-    text-decoration: none;
-    color: #000;
+footer {
+  background-color: #f5f6f8;
+  padding: 2.7em 0;
 }
 
-.social-icons a{
-    display: block;
-    float: right;
-    width:33.33%;
-    text-align: right;
+footer .container a {
+  color: var(--Dark-Grayish-Blue);
+  font-size: 1.1rem;
 }
-.social-icons i:hover{
-    color: hsl(171, 66%, 44%);
+
+footer .container {
+  display: flex;
+  align-items: center;
 }
-.f-menu a:hover{
-    color:hsl(171, 66%, 44%);
+
+.footer-logo {
+  text-align: center;
+  flex: 0 0 18%;
 }
-.attribution{
-    width: 80%;
+
+.social-icons {
+  flex: 0 0 14%;
+}
+
+.footer-logo img {
+  width: 60px;
+}
+
+.footer-menu {
+  flex: 1;
+  display: flex;
+}
+
+.f-menu {
+  width: 25%;
+}
+
+.f-menu a {
+  display: block;
+  line-height: 2em;
+  color: #000;
+  transition: color 0.2s;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  gap: 25px;
+}
+
+.social-icons a {
+  text-align: center;
+}
+
+.social-icons a img {
+  width: 26px;
+}
+
+.f-menu a:hover {
+  color: var(--Strong-Cyan);
+}
+
+.attribution {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  footer {
     text-align: center;
-    margin: auto;
-    display: block;
-    font-size: 12px;
+    justify-content: center;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    text-align: center;
+    flex: 0;
+    margin-bottom: 30px;
+  }
+
+  .footer-menu {
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .f-menu {
+    width: 100%;
+  }
+
+  .f-menu a {
+    margin-bottom: 10px;
+  }
+
+  .social-icons {
+    flex: 0;
+  }
+
+  .social-icons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    gap: 25px;
+  }
 }
