@@ -1,0 +1,13 @@
+.accessibility {
+  text-align: center;
+}
+
+.accessibility .small-container {
+  margin: 0 auto;
+}
+
+.accessibility img {
+  margin-top: 80px;
+  width: 100%;
+  max-width: 870px;
+}

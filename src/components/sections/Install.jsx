@@ -1,3 +1,5 @@
+import { BtnsDownload } from "../btns/BtnsDownload";
+
 export function Install() {
   return(
     <section class="install">
@@ -9,14 +11,7 @@ export function Install() {
                 sync with iCloud and you’re ready to start adding to your
                 clipboard.
               </p>
-              <div class="download">
-                <a href="" class="download_btn one">
-                  Download for iOS
-                </a>
-                <a href="" class="download_btn two">
-                  Download for Maac
-                </a>
-              </div>
+             <BtnsDownload/>
             </div>
           </div>
         </section>

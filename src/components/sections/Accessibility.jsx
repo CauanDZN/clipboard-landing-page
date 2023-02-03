@@ -1,3 +1,4 @@
+import './accessibility.css'
 
 export function Accessibility() {
   return (
@@ -9,7 +10,9 @@ export function Accessibility() {
           Clipboard snippets in a few simple clicks.
         </p>
       </div>
-      <img src="image-devices.png" alt="images of different deviecs" />
+      <div>
+        <img src="image-devices.png" alt="images of different deviecs" />
+      </div>
     </section>
   )
 }

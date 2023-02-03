@@ -8,8 +8,6 @@
   text-decoration: none;
 }
 
-
-
 :root {
   /* COLORS */
 
@@ -22,6 +20,25 @@
   --Dark-Grayish-Blue: hsl(210, 10%, 33%);
   --Grayish-Blue: hsl(201, 11%, 66%);
 }
-/* img {
-  display: none;
-} */
+
+body {
+  overflow-x: hidden;
+}
+
+main,
+header,
+footer {
+  padding-inline: 0.9rem;
+}
+
+h3 {
+  color: var(--Dark-Grayish-Blue);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  color: var(--Grayish-Blue);
+  font-size: 1.125rem;
+  line-height: 1.8rem;
+}
