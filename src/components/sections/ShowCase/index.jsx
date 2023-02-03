@@ -1,5 +1,6 @@
+import { BtnsDownload } from '../../btns/BtnsDownload'
 import './showcase.css'
-import { BtnsDownload } from "../btns/BtnsDownload";
+
 export function Showcase() {
   return (
     <section class="showcase">

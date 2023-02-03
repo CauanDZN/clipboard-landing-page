@@ -1,4 +1,4 @@
-import { BtnsDownload } from "../btns/BtnsDownload";
+import { BtnsDownload } from '../../btns/BtnsDownload'
 import './install.css'
 
 export function Install() {
