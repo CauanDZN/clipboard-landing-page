@@ -10,7 +10,9 @@ import { Tools } from './components/sections/Tools'
 import './styles/main.css'
 
 function App() {
+  useEffect(() => {
     AOS.init()
+  })
   return (
     <>
       <Header />
