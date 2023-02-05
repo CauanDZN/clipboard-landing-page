@@ -2,7 +2,7 @@
 
 # Clipboard Landing-page
 
-### Frontend Mentor Challenge - Clipboard landing page
+<p>Frontend Mentor Challenge - Clipboard landing page</p>
 
   <img style="width: 400px;" src="./.github/preview.png" alt="">
 </div>
