@@ -1,6 +1,6 @@
-# Clipboard Landing-page
-
 <div align="center">
+
+# Clipboard Landing-page
 
 Frontend Mentor Challenge - Clipboard landing page
 
