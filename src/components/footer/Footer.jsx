@@ -3,24 +3,24 @@ import './footer.css'
 export function Footer() {
   return (
     <footer>
-      <div class="container">
-        <div class="footer-logo">
+      <div data-aos="fade-right" className="container">
+        <div className="footer-logo">
           <img src="logo.svg" alt="Logo" />
         </div>
-        <div class="footer-menu">
-          <div class="f-menu">
+        <div className="footer-menu">
+          <div className="f-menu">
             <a href="#">FAQs</a>
             <a href="#">Contact Us</a>
           </div>
-          <div class="f-menu">
+          <div className="f-menu">
             <a href="#">Privacy Policy</a>
             <a href="#">Preses Kit</a>
           </div>
-          <div class="f-menu">
+          <div className="f-menu">
             <a href="#">Install Kit</a>
           </div>
         </div>
-        <div class="social-icons">
+        <div className="social-icons">
           <a href="#">
             <img src="icon-facebook.svg" alt="https://twitter.com/rai_jenis" />
           </a>
