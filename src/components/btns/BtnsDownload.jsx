@@ -2,11 +2,11 @@ import './btnsDownload.css'
 
 export function BtnsDownload() {
   return (
-    <div class="download">
-      <a href="" class="download_btn one">
+    <div data-aos="fade-down" className="download">
+      <a href="" className="download_btn one">
         Download for iOS
       </a>
-      <a href="" class="download_btn two">
+      <a href="" className="download_btn two">
         Download for Mac
       </a>
     </div>

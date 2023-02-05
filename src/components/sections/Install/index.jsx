@@ -3,9 +3,9 @@ import './install.css'
 
 export function Install() {
   return(
-    <section class="install">
-          <div class="small-container">
-            <div class="para">
+    <section className="install">
+          <div className="small-container">
+            <div data-aos="fade-down" className="para">
               <h3>Clipboard for iOS and Mac OS</h3>
               <p>
                 Available for free on the App Store. Download for Mac or iOS,
