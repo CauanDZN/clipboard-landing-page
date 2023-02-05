@@ -1,8 +1,8 @@
 # Clipboard Landing-page
 Frontend Mentor Challenge - Clipboard landing page
 
-<div style="align-items: center;">
-  <img style="width: 500px;" src="./.github/preview.png" alt="">
+<div align="center" style="align-items: center;">
+  <img style="width: 400px;" src="./.github/preview.png" alt="">
 </div>
 
 ## Sobre o projeto:
