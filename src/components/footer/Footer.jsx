@@ -3,7 +3,7 @@ import './footer.css'
 export function Footer() {
   return (
     <footer>
-      <div data-aos="fade-right" className="container">
+      <div className="container">
         <div className="footer-logo">
           <img src="logo.svg" alt="Logo" />
         </div>
