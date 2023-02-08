@@ -2,15 +2,15 @@ import './keep-track.css'
 
 export function KeepTrack() {
   return (
-    <section data-aos="fade-down" className="keep-track">
-      <h3 className="small-container">Keep track of your snippets</h3>
-      <p className="small-container">
+    <section className="keep-track">
+      <h3 data-aos="fade-down" className="small-container">Keep track of your snippets</h3>
+      <p data-aos="fade-down" className="small-container">
         Clipboard instantly stores any item you copy in the cloud, meaning you
         can access your snippets immediately on all your devices. Our Mac and
         iOS apps will help you organize everything.
       </p>
       <div className="lower">
-        <div className="lower-left">
+        <div data-aos="fade-down" className="lower-left">
           <img src="image-computer.png" alt="computer-image" className="" />
         </div>
         <div className="lower-right">

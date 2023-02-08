@@ -2,9 +2,9 @@ import './tools.css'
 
 export function Tools() {
   return (
-    <section data-aos="fade-down" className="tools">
-      <h3>Supercharge your workflow</h3>
-      <p>We’ve got the tools to boost your productivity.</p>
+    <section className="tools">
+      <h3 data-aos="fade-down">Supercharge your workflow</h3>
+      <p data-aos="fade-down">We’ve got the tools to boost your productivity.</p>
       <div  className="container">
         <div data-aos="fade-down" className="tool">
           <img src="icon-blacklist.svg" alt="Blacklist icon" />
