@@ -16,7 +16,7 @@ export function KeepTrack() {
         <div className="lower-right">
           <div className="feature-container">
             <div className="feature">
-              <h5>Quick Search</h5>
+              <h4>Quick Search</h4>
               <p>
                 {' '}
                 Easily search your snippets by content, category, web address,
@@ -24,11 +24,11 @@ export function KeepTrack() {
               </p>
             </div>
             <div className="feature">
-              <h5>iCloud Sync</h5>
+              <h4>iCloud Sync</h4>
               <p>Instantly saves and syncs snippets across all your devices.</p>
             </div>
             <div className="feature">
-              <h5>Complete History</h5>
+              <h4>Complete History</h4>
               <p>
                 Retrieve any snippets from the first moment you started using
                 the app.
