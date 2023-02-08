@@ -2,7 +2,7 @@ import './btnsDownload.css'
 
 export function BtnsDownload() {
   return (
-    <div data-aos="fade-down" className="download">
+    <div className="download">
       <a href="" className="download_btn one">
         Download for iOS
       </a>
